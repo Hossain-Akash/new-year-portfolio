@@ -1,0 +1,146 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner style */
+.nav-content{
+    background-image: url(../images/Banner\ Image.png);
+    display: block;
+    border-radius: 16px;
+    margin: 50px auto;
+    width: 1320px;
+    height: 600px;
+}
+.banner{
+    padding: 177px 344px;
+}
+.banner h4{
+    color: cornsilk;
+    font-size: 32px;
+}
+.banner h1{
+    color: cornsilk;
+    font-weight: bolder;
+    font-size: 64px;
+}
+    
+    /*Shared style  */
+.text-center{
+    text-align: center;
+    }
+.text-color{
+    color: #FF0000;
+}
+.text-color-black{
+    color: #070211;
+}
+.text-color-white{
+    color: #FFFFFF;
+}
+.secondary-bg{
+    background-color: #ff00001e;
+}
+
+    /* new year section style */
+.New-year-pic{
+    display: block;
+    margin: 120px auto;
+    width: 800px;
+    height: 806px;
+}
+.discount-head{
+    font-weight: bold;
+    font-size: 88px;
+    margin: 48px 209px;
+    /* width: 383px; */
+}
+.discount-title{
+    font-weight: 500px;
+    font-size: 24px;
+}
+.discount-subtitle{
+    font-weight: bold;
+    font-size: 48px;
+}
+/* party section */
+.party{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 100px 552px 298px 126px; */
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 120px;
+}
+.party-title{
+    font-weight: bolder;
+    font-size: 64px;
+}
+.party-description{
+    font-size: 18px;
+}
+.join-now{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.mid-party{
+    border: 2px solid red;
+    width: 60%;
+    padding: 100px;
+}
+.year-img{
+    border: 2px solid red;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+/* venue styles */
+.venue{
+    height: 482px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.venues{
+    padding: 110px 385px;
+}
+.venue-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+.btn{
+    border-radius: 8px;
+    background-color: #FF0000;
+    padding:16px 32px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* test */
+.test-abba{
+display: flex;
+justify-content: center;
+}
+.test-img{
+    border: 20px solid black;
+    border-radius: 50%;
+    /* width: 500px;
+    height: 500px;*/
+    padding: 40px;
+
+    
+
+}
